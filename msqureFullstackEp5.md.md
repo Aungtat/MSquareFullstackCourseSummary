@@ -56,8 +56,8 @@ JavaScript ရဲ့
 - အထက်တွင် ဖော်ပြထားသောdata types  ထဲတွင် `object` data-type တစ်ခုမှလွဲပြီး ကျန် အားလုံးသည် **Primitive Data Type** (ထပ်ခွဲ၍ မရနိုင်သော) ဖြစ်ပြီး   `object` data-type မှာ  **Non-Primitive Data Type** (ထပ်ခွဲ၍ ရ) ဖြစ်သည်။
 
 ###  Variable
-Variable ကြေငြာရန် var , let , const စသည့် keyword များ အသုံးပြုပေးရသည်။
-**Syntax**
+Variable ကြေငြာရန် var , let , const စသည့် keyword များ အသုံးပြုပေးရသည်။<br>
+**Syntax**<br>
 `keyword`  `Variable's name` = `Value` ;
 
     var num1 = 4 ; 
@@ -99,7 +99,7 @@ example : 3 ( **const** )
        let creatEmail = ( ) = > {
        
        const userNameTwo = "mgmg"; ( internal Scope)
-       **//ဤ checkName function ထဲ၌သာ ခေါ်သုံးခွင့်ရှိ ၊
+       **//ဤ creatEmail function ထဲ၌သာ ခေါ်သုံးခွင့်ရှိ ၊
        အခြားမည်သည့်နေရာတွင်မှ ခေါ်သုံးခွင့်မရနိုင်'**
 
        const newEmail = userName + "@gmail.com" ;
