@@ -15,24 +15,24 @@
   
   ##
   ### Function တစ်ခု သတ်မှတ်ခြင်း (define, declare)
-  - ပထမနည်းလမ်း
-syntax
+  - ပထမနည်းလမ်း<br>
+syntax<br>
       ``function-keyword`` ``functionနာမည်`` ( ``parameter`` ){
        ``function body ;``
        } ;
 
-   code
+  <br> code
 
      function helloWorld(){
         console.log("Hello world");
         };
 
-- **ES6 arrow Function** (antonymous အမည်မဲ့)
-syntax
+- **ES6 arrow Function** (antonymous အမည်မဲ့)<br>
+syntax<br>
    `(parameter)` `=>` `{`
    `function body;`
    `}`
-
+<br>
 code
    
 
@@ -40,7 +40,7 @@ code
         console.log (" Hello world");
         };
 
- **ES6** function ကို variable တစ်ခုထဲတွင် သိမ်းထားလေ့ရှိပါတယ်။
+ **ES6** function ကို variable တစ်ခုထဲတွင် သိမ်းထားလေ့ရှိပါတယ်။<br>
 code
 
     const sayHello = () =>{
