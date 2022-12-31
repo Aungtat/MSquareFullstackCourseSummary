@@ -144,7 +144,7 @@ example : 3 ( **const** )
                     </td>
                     <td>
                        ပေါင်းခြင်း 
-                        let num1= 1, num2=2 :
+                       
                     </td>
                 </tr>
                 <tr>
