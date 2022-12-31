@@ -178,11 +178,15 @@ Html tag ထဲမှာ style attribute နဲ့ တစ်ခါထဲ ထည�
  
  - လက်တွေ့မှာ ****Inline CSS** နဲ့  **Internal CSS ကို အသုံးမပြုကြပဲ** **External CSS** ကို သာ သုံးကြပါတယ်။**
  - CSS **precedence** ဦးစားပေးစနစ် <br>
-    တူညီတဲ့ selector တစ်ခုကို  ရေးနည်းသုံးနည်းစလုံးမှာproperty တူတူ ကြေငြာထားရင် 
-    **Inline CSS** က ဦးစားပေး **နံပါတ် တစ်**
-    **Internal CSS** က ဦးစားပေး **နံပါတ် နှစ်**
-    **External CSS** က ဦးစားပေး **နံပါတ် သုံ**းပါ
-     p tag တစ်ခုကို **inline css** မှာ  **red** , **Internal css** မှာ  **blue** , **external css** မှာ **yellow** လို့ ကြေငြာထားမယ်ဆိုရင် **precedence** ဦးစားပေးစနစ်အရ **red** ကိုပဲ ပြပေးမှာပါ။
+    တူညီတဲ့ selector တစ်ခုကို  ရေးနည်းသုံးနည်းစလုံးမှာproperty တူတူ ကြေငြာထားရင် <br>
+    **Inline CSS** က ဦးစားပေး **နံပါတ် တစ်**<br>
+    **Internal CSS** က ဦးစားပေး **နံပါတ် နှစ်**<br>
+    **External CSS** က ဦးစားပေး **နံပါတ် သုံ**းပါ<br>
+     p tag တစ်ခုကို <br>
+     **inline css** မှာ  **red** , 
+     <br>**Internal css** မှာ  **blue** , 
+     <br>**external css** မှာ **yellow** လို့ <br>
+     ကြေငြာထားမယ်ဆိုရင် **precedence** ဦးစားပေးစနစ်အရ **red** ကိုပဲ ပြပေးမှာပါ။
 ### CSS layout လုပ်တော့မယ် ဆိုရင် Mobile first layout ကို ဦးစားပေး လုပ်ဆောင်ရပါမယ်
     
 
