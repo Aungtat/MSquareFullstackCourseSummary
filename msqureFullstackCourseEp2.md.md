@@ -21,7 +21,8 @@ Html က Naked ဖြစ်နေတဲ့ လူတစ်ယောက်ဆိ�
   Html fileတွေကို chrome/firefox စတဲ့ web browser တွေမှာ ဖွင့်ကြည့်လို့ ရပါတယ်။
 
 ### Html Document structure
-```<!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -33,7 +34,8 @@ Html က Naked ဖြစ်နေတဲ့ လူတစ်ယောက်ဆိ�
     <title>Document</title>
   </head>
   <body></body>
-</html>```
+</html>
+```
 ***!DOCTYPE html*** ဆိုတာက Html file ဖြစ်ကြောင်း browser ကို ပြောလိုက်တာပါ။
 html document တစ်ခုကို  Html file ဖြစ်ကြောင်း ကြေငြာပြီးရင်
 html ဖိုင်ကို ***.html*** နဲ့ file format ထားသိမ်းပေးရပါမယ်.
