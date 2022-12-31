@@ -60,16 +60,16 @@ screen size ဘယ် အရွယ် ရောက် ရင် ဒါကို�
 ![enter image description here](https://lh6.googleusercontent.com/n3LEsgGJx6nsOtm3MaoI2Ro8FqznwaJ2TDzWZL_KzucTXVDNEyqBtH4XrbMNMtfOv_d9q2HA3G0kU7fDM8tOLYuS2NfBA9CmERRqIGkbQ8P1VYvLj7xI9vJirpCJWJF1r5AMKaKy)
     
 **Margin** ဆိုတာက element နဲ့ စာမျက်နှာအစွန်း ရဲ့ အကွာအ၀ေးပါ
- margin : 20px ; ဆိုရင်  element ကို စာမျက်နှာအစွန်းကနေ 20px ခွါပေးပါလို့ ပြောလိုက်တာပါ။
+ margin : 20px ; ဆိုရင်  element ကို စာမျက်နှာအစွန်းကနေ 20px ခွါပေးပါလို့ ပြောလိုက်တာပါ။<br>
  ![enter image description here](https://4.bp.blogspot.com/-N3SbVSNaxac/UtA5nfYVlTI/AAAAAAAAAAc/X6xjzVfaH6g/s1600/css+margin+layout.png)
- လိုချင်တဲ့ နေရာလောက်ပဲ margin ပေးချင်ရင်
- ပုံထဲကအတိုင်း အပေါ်ဘက်ဆိုရင် 
- ```margig-top : 20px;``` 
- ရေးပေးရပါမယ်။
+<br> လိုချင်တဲ့ နေရာလောက်ပဲ margin ပေးချင်ရင်
+<br> ပုံထဲကအတိုင်း အပေါ်ဘက်ဆိုရင် 
+ ```margig-top : 20px;``` <br>
+<br> ရေးပေးရပါမယ်။
  အလားတူပဲ
-  ```margig-left : 10px;``` 
-   ```margig-bottom : 5px;``` 
-    ```margig-right : 0px;``` 
+  <br>```margig-left : 10px;``` 
+   <br>```margig-bottom : 5px;``` 
+   <br> ```margig-right : 0px;``` 
     ကြိုက်သလို သတ်မှတ်နိုင်ပါတယ်
 
 **short-hand** 
