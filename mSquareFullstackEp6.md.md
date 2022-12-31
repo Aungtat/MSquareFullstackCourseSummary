@@ -170,6 +170,7 @@ code
     haveToPay(normalPrice,discountPrice);
     
     console.log ( "You Have to Pay " + toPay + "$"+" "+ "Total");
+    // You Have to Pay 7$ Total
 
        
 **totalPrice** function ခေါ််တဲ့အခါ  **parameter** တွေမှာ အခြားတန်ဖိုးတွေ ( orange , apple, dragon) အစားထိုးပြီး **console မှာ run** ကြည့်ပါ။
