@@ -104,6 +104,7 @@ Img tag အတွက် အပိတ် tag ထည့်ပေးရန်မလ
 
 ## CSS
 ![enter image description here](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP6rtBCZj2zcGdG8zPKtO82omPNVdjqJLbwWk_BMPL6dxD9DAQSMw_5Cjsiuz1B3So9N0&usqp=CAU)
+<br>
 **CSS**ဆိုတာ Html Element တွေကို style,design,color,layout ပြုပြင်ဖန်တီးလုပ်ဆောင်ပေးတာပါ။
  1. **Inline CSS**
  2. **Internal CSS**
@@ -176,7 +177,7 @@ Html tag ထဲမှာ style attribute နဲ့ တစ်ခါထဲ ထည�
  ဆိုလိုတာက `id="koko"` လို့ သုံးပြီးရင် နောက်ထပ် koko ဆိုတဲ့ id ထပ်မသုံးသင့်ပါ။
  
  - လက်တွေ့မှာ ****Inline CSS** နဲ့  **Internal CSS ကို အသုံးမပြုကြပဲ** **External CSS** ကို သာ သုံးကြပါတယ်။**
- - CSS **precedence** ဦးစားပေးစနစ်
+ - CSS **precedence** ဦးစားပေးစနစ် <br>
     တူညီတဲ့ selector တစ်ခုကို  ရေးနည်းသုံးနည်းစလုံးမှာproperty တူတူ ကြေငြာထားရင် 
     **Inline CSS** က ဦးစားပေး **နံပါတ် တစ်**
     **Internal CSS** က ဦးစားပေး **နံပါတ် နှစ်**
