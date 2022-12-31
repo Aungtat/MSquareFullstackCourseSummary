@@ -328,9 +328,9 @@ post-decrement, y will be **10 here** and **9 in the next** line
     // third log
 
 ##
-### `swich` Statement
+### `switch` Statement
 
-    swich ( case ) {
+    switch ( case ) {
     
     case 1 : 
      run this code ;
@@ -346,7 +346,7 @@ post-decrement, y will be **10 here** and **9 in the next** line
 
 example 2
 
-    swich ( "cat" ) {
+    switch ( "cat" ) {
         
         case "cat" : 
          console.log ( " I'm a Cat");
@@ -363,7 +363,7 @@ example 2
 
 example 3
 
-    swich ( "dog" ) {
+    switch ( "dog" ) {
         
         case "cat" : 
          console.log ( " I'm a Cat");
@@ -379,7 +379,7 @@ example 3
         // I'm a dog
 example 4
 
-    swich ("animal") {
+    switch ("animal") {
         
         case "cat" : 
          console.log ( " I'm a Cat");
@@ -398,6 +398,6 @@ example 4
 
  - Javascript ကကြိုတင်သတ်မှတ်အသုံးပြုထာသည့် keyword များကို 
    variable name (or) function name အဖြစ် သုံးစွဲခွင့်မရှိပါ။
-  - `swich` Statement ကို `if` ,`else if` စတာတွေ အများကြီး သုံးရချိန်တွင် အစားထိုးသုံးလေ့ရှိသည်။ `swich` ကို ရေးသားရာတွင် case တစ်ခု check တိုင်း `break` ကို ထည့်ရေးပေးရန် အရေးကြီးပါသည်။ `swich` တွင် သုံး သော 
+  - `switch` Statement ကို `if` ,`else if` စတာတွေ အများကြီး သုံးရချိန်တွင် အစားထိုးသုံးလေ့ရှိသည်။ `switch` ကို ရေးသားရာတွင် case တစ်ခု check တိုင်း `break` ကို ထည့်ရေးပေးရန် အရေးကြီးပါသည်။ `switch` တွင် သုံး သော 
 **expression** နှင့် **case value** တို့သည် ***case-sensitive*** ဖြစ်သောကြောင့် **အတိအကျ ထပ်တူညီမှသာ** အလုပ်လုပ်နိုင်မည်။
   
