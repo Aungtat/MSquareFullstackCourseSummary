@@ -146,7 +146,7 @@ SCSSကို သုံးဖို့ အတွက် NPM (**N**ode **P**ackage
 
 ### Bootstrap
 Components တွေ အများကြီးကို ဖန်တီးထားပေးပြီး သက်ဆိုင်ရာ စကားလုံးတွေကို class attribute မှာ ထည့်ပေးလိုက်ရုံနဲ့ styling လုပ်ပေးပါတယ်။
-Drop down Button တစ်ခုကို bootstrap နဲ့ ဖန်တီးထားတာပါ
+Drop down Button တစ်ခုကို bootstrap နဲ့ ဖန်တီးထားတာပါ <br>
 ![enter image description here](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAgm-uJdJtCrUckwlt6qi4uO9de9Begaqy8Q&usqp=CAU)
 
     <!DOCTYPE html>
