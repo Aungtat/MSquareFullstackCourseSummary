@@ -76,7 +76,7 @@ screen size ဘယ် အရွယ် ရောက် ရင် ဒါကို�
 
     margin : X Y;
 
-X = margin-top + margin-bottom
+X = margin-top + margin-bottom<br>
 Y = margin-right + margin-left
 
     margin : 10px 0px;
