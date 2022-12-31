@@ -75,13 +75,6 @@ example : 1 ( **var** )
     var userName = "ko ko" ; ( ko ko )
       userName = "Mg Mg" ; ( Mg Mg )
 
- example : 2  ( **let** )
-
-     var num1 = 5
-      const num2= 8;
-       let num3 = 2 ; ( 2 )
-       num3 = num1 + num2 ; ( 13 )
-
 example : 3 ( **const** )
 
     var num5 = 7 :
@@ -93,36 +86,38 @@ example : 3 ( **const** )
    ### Scope
   
 
-     const userName = " koko" ; ( Global Scope )
-       **//မည်သည့် နေရာကမဆို ခေါ်သုံး လို့ရ**  
+     const userName = " koko" ; 
+     /* ( Global Scope )
+       မည်သည့် နေရာကမဆို ခေါ်သုံး လို့ရ */
       
-       let creatEmail = ( ) = > {
+       let creatEmail = () => {
        
-       const userNameTwo = "mgmg"; ( internal Scope)
-       **//ဤ creatEmail function ထဲ၌သာ ခေါ်သုံးခွင့်ရှိ ၊
-       အခြားမည်သည့်နေရာတွင်မှ ခေါ်သုံးခွင့်မရနိုင်'**
+       const userNameTwo = "mgmg"; 
+       /*( internal Scope)
+       ဤ creatEmail function ထဲ၌သာ ခေါ်သုံးခွင့်ရှိ ၊
+       အခြားမည်သည့်နေရာတွင်မှ ခေါ်သုံးခွင့်မရနိုင် */
 
        const newEmail = userName + "@gmail.com" ;
        console.log (newEmail) ;// koko@gmail.com //
 
        } ;
        
-       creatEmail( );
+       creatEmail();
        
-       let creatSayHi = ( ) = > {
+       let creatSayHi = () => {
       
        const userName3 = " MA MA" ;
-       const helloGuest3 = userName3 + "Mingalar Par" ;
+       const helloGuest3 = userName3 + " "+"Mingalar Par" ;
        console.log (helloGuest3) ;// MA MA Mingalar Par //
 
-       const helloGuest = userName + "Mingalar Par" ;
+       const helloGuest = userName + " " + "Mingalar Par" ;
        console.log (helloGuest) ;// koko Mingalar Par //
        
-       const helloGuestTwo = userNameTwo + "Mingalar Par" ;
+       const helloGuestTwo = userNameTwo + " " + "Mingalar Par" ;
        console.log (helloGuestTwo) ; // Error //
 
        } ;
-       creatSayHi( );
+       creatSayHi();
 ### JavaScript Operator(s)
 1. #### Arithmetic Operators
   သင်္ချာ ကဲ့သို့ ပေါင်းနှုတ်‌မြောက်စား စတာတွေလုပ်ပေးတာဖြစ်ပါတယ်။
