@@ -139,10 +139,10 @@ code
  
   
 
-     const toCheck = (a,b) => {
-             return (a + b );
-             }
-             toCheck( 3, 4);
+     const toCheck = (a,b) => {<br>
+             return (a + b );<br>
+             }<br>
+             toCheck( 3, 4);<br>
              //return 7
 
 ### Try this ....
