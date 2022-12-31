@@ -183,9 +183,9 @@ Html tag ထဲမှာ style attribute နဲ့ တစ်ခါထဲ ထည�
     **Internal CSS** က ဦးစားပေး **နံပါတ် နှစ်**<br>
     **External CSS** က ဦးစားပေး **နံပါတ် သုံ**းပါ<br>
      p tag တစ်ခုကို <br>
-     **inline css** မှာ  **red** , 
-     <br>**Internal css** မှာ  **blue** , 
-     <br>**external css** မှာ **yellow** လို့ <br>
+     **inline css** မှာ  **color: red** , 
+     <br>**Internal css** မှာ  **color : blue** , 
+     <br>**external css** မှာ **color : yellow** လို့ <br>
      ကြေငြာထားမယ်ဆိုရင် **precedence** ဦးစားပေးစနစ်အရ **red** ကိုပဲ ပြပေးမှာပါ။
 ### CSS layout လုပ်တော့မယ် ဆိုရင် Mobile first layout ကို ဦးစားပေး လုပ်ဆောင်ရပါမယ်
     
