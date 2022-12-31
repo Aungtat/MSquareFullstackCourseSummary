@@ -87,10 +87,10 @@ Y = margin-right + margin-left
 အပေါ် 20px  ညာ 0px အောက်5px  ဘယ်10px
 ##
 **Border** ဆိုတာက element ရဲ့ ဘောင် ဖြစ်ပါတယ်။
-element ရဲ့ ဘောင် သတ်မှတ်ချင်ရင် 
-အရွယ်အစား `border-width : 1px ;`
-ပုံစံ `border-style : solid ;`
-အရောင်  `border-color : black ;`
+element ရဲ့ ဘောင် သတ်မှတ်ချင်ရင် <br>
+အရွယ်အစား `border-width : 1px ;`<br>
+ပုံစံ `border-style : solid ;`<br>
+အရောင်  `border-color : black ;`<br>
 စတာတွေနဲ့ သတ်မှတ်ပေးရပါတယ်။
 
 Short-Hand
