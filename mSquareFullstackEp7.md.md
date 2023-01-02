@@ -13,8 +13,8 @@
  #### Declare Syntax
 
  `const` `object-name` = { 
- `property-key` : `"property-value"` `,`<br>
- `key` : `value`
+ `property-key` : `"property-value"` 
+ 
  } ;
 
 ![enter image description here](https://miro.medium.com/max/856/0*7EptITWWPaI9BoxL.png)
