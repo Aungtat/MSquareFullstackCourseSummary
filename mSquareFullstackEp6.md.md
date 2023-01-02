@@ -27,7 +27,7 @@ syntax<br>
         console.log("Hello world");
         };
 
-- **ES6 arrow Function** (antonymous အမည်မဲ့)<br>
+- **ES6 arrow Function** (anonymous အမည်မဲ့)<br>
 syntax<br>
    `(parameter)` `=>` `{`
    `function body;`
