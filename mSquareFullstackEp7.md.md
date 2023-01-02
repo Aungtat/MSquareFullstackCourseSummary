@@ -19,7 +19,7 @@
 
 ![enter image description here](https://miro.medium.com/max/856/0*7EptITWWPaI9BoxL.png)
 #### Usage syntax
-`object-name`.`key` **(Dot** Notation)
+`object-name`.`key` **(Dot** Notation)<br>
 `object-name`[`"key"`] (**Bracket** Notation)
 #### example
 
