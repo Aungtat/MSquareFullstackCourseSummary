@@ -145,7 +145,8 @@
    ##
    ### Looping Array 
    #### syntax
-   `for` ( `let` `index = 0` ; `index` < `array.length` ; `index++`){ Run this code } ;
+   `for` ( `let` `index = 0` ; `index` < `array.length` ; `index++`){ Run this code } ;<br>
+   index ရဲ့ တန်ဖိုးဟာ 0 ဖြစ်သည်။ index ရဲ့ တန်ဖိုးဟာ array ထဲရှိ items ရှိသလောက်ထပ် နည်းနေသ၍ loop လုပ်ပေးပါ။ <br>loop တစ်ခါလုပ်တိုင်း index တန်ဖိုးကို 1 တိုးပေးပါ။
    #### EXAMPLE
 
     const arrayForloop = [
