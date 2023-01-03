@@ -274,7 +274,7 @@ console.log(index2);
  #### syntax
  
 
-`splice`(`start-index`, `deleteCount`) for remove
+`splice`(`start-index`, `deleteCount`) for remove<br>
 `splice`(`start-index`, `deleteCount`, `replace/insert`)for insert/replace
 ```
 const months = ['Jan', 'March', 'April', 'June'];
