@@ -191,4 +191,106 @@
            //Mg Mg
            //Bo Bo
            //Su Su
+## 
+##
+### အသုံးများသော Array methods များ
+ဒီ method တွေကတော့ JavaScript မှာ Build-in အဖြစ် ပါ၀င်ပြီးသား function တွေ ဖြစ်ပါတယ်။
 
+ - **pop() method**
+  မူလ array ထဲမှ နောက်ဆုံး itemကို ဖယ်ထုတ်လိုက်ပြီး ထိုဖယ်ထုတ်လိုက်တဲ့ item ကို return လုပ်ပေးသည်။<br>
+ example
+ ```
+let cities = ["Madrid","New York","Kathmandu","Paris"];
+
+// remove the last element
+let removedCity = cities.pop();
+
+console.log(cities) 
+// ["Madrid", "New York", "Kathmandu"]
+
+console.log(removedCity);  // Paris
+```
+##
+- **shift() method**
+မူလ array ထဲမှ ပထမဆုံး itemကို ဖယ်ထုတ်လိုက်ပြီး ထိုဖယ်ထုတ်လိုက်တဲ့ item ကို return လုပ်ပေးသည်။<br>
+``` 
+let languages = ["English","Java","Python", "JavaScript"];
+
+// removes the first element of the array
+     let first = languages.shift();
+     console.log(first);
+     console.log(languages);
+
+//  English
+//   [ 'Java', 'Python', 'JavaScript' ]
+```
+##
+ - **unshift() method**
+ မူလ array ထဲ တွင် item တစ်ခုကို အစနေရာတွင် ပေါင်းထည့်ပေးပြီး<br>
+ ‌array အသစ်တစ်ခု ထုတ်ပေးသည်။
+ ```
+let languages = ["Java", "Python", "C"];
+
+
+languages.unshift("JavaScript");
+
+console.log(languages);
+// [ 'JavaScript', 'Java', 'Python', 'C' ]
+
+
+```
+##
+ - **push() method**
+  မူလ array ထဲ တွင် item တစ်ခုကို နောက်ဆုံးတွင် ပေါင်းထည့်ပေးသည်။
+  
+  ```
+  let city = ["New York", "Madrid", "Kathmandu"];
+
+
+city.push("London");
+
+console.log(city);
+//[ 'New York', 'Madrid', 'Kathmandu', 'London' ]
+```
+##
+- **indexOf()**
+array ထဲရှိ item တစ်ခုရဲ့ index တန်ဖိုးကို ရှာပေးသည်။<br>
+မိမိရှာသော item မရှိရင် -1 ကို ထုတ်ပေးသည်။
+```
+let languages = ["Java", "JavaScript", "Python", "JavaScript"];
+
+
+let index = languages.indexOf("Python");
+console.log(index);
+// 2
+
+let index2 = languages.indexOf("Php");
+console.log(index2);
+// -1
+```
+##
+ - **splice() method**
+ array ထဲရှိ item များ ဖယ်ထုတ်ခြင်း/အစားထိုးခြင်း တို့ အတွက် သုံးသည်။
+ #### syntax
+ 
+
+`splice`(`start-index`, `deleteCount`) for remove
+`splice`(`start-index`, `deleteCount`, `replace/insert`)for insert/replace
+```
+const months = ['Jan', 'March', 'April', 'June'];
+   
+   // Inserts at index-1
+   months.splice(1, 0, 'Feb');
+    console.log(months);
+     // ["Jan", "Feb", "March", "April", "June"]
+
+     // Replaces 1-item at index-4 (June to May)
+     months.splice(4, 1, 'May');
+     console.log(months);
+     //["Jan", "Feb", "March", "April", "May"]
+
+   //remove index-2 item (March)
+   months.splice(2,1);
+   console.log(months);
+   //['Jan', 'Feb', 'April', 'May']
+```
