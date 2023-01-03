@@ -4,7 +4,8 @@
 ဒီနေ့သင်တန်းမှာတော့ 
  - ‌JavaScript Object
  - JavaScript Array
- - loop (for loop)<br>
+ - loop (for loop)
+ - build-in methods <br>
  စတာတွေ အကြောင်း လေ့လာသွားပါမယ်။
  ## 
  ### Object 
