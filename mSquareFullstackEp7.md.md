@@ -196,7 +196,7 @@
 ### အသုံးများသော Array methods များ
 ဒီ method တွေကတော့ JavaScript မှာ Build-in အဖြစ် ပါ၀င်ပြီးသား function တွေ ဖြစ်ပါတယ်။
 
- - **pop() method**
+ - **pop() method**<br>
   မူလ array ထဲမှ နောက်ဆုံး itemကို ဖယ်ထုတ်လိုက်ပြီး ထိုဖယ်ထုတ်လိုက်တဲ့ item ကို return လုပ်ပေးသည်။<br>
  example
  ```
@@ -211,7 +211,7 @@ console.log(cities)
 console.log(removedCity);  // Paris
 ```
 ##
-- **shift() method**
+- **shift() method**<br>
 မူလ array ထဲမှ ပထမဆုံး itemကို ဖယ်ထုတ်လိုက်ပြီး ထိုဖယ်ထုတ်လိုက်တဲ့ item ကို return လုပ်ပေးသည်။<br>
 ``` 
 let languages = ["English","Java","Python", "JavaScript"];
@@ -225,7 +225,7 @@ let languages = ["English","Java","Python", "JavaScript"];
 //   [ 'Java', 'Python', 'JavaScript' ]
 ```
 ##
- - **unshift() method**
+ - **unshift() method**<br>
  မူလ array ထဲ တွင် item တစ်ခုကို အစနေရာတွင် ပေါင်းထည့်ပေးပြီး<br>
  ‌array အသစ်တစ်ခု ထုတ်ပေးသည်။
  ```
@@ -240,7 +240,7 @@ console.log(languages);
 
 ```
 ##
- - **push() method**
+ - **push() method**<br>
   မူလ array ထဲ တွင် item တစ်ခုကို နောက်ဆုံးတွင် ပေါင်းထည့်ပေးသည်။
   
   ```
@@ -253,7 +253,7 @@ console.log(city);
 //[ 'New York', 'Madrid', 'Kathmandu', 'London' ]
 ```
 ##
-- **indexOf()**
+- **indexOf()**<br>
 array ထဲရှိ item တစ်ခုရဲ့ index တန်ဖိုးကို ရှာပေးသည်။<br>
 မိမိရှာသော item မရှိရင် -1 ကို ထုတ်ပေးသည်။
 ```
@@ -269,7 +269,7 @@ console.log(index2);
 // -1
 ```
 ##
- - **splice() method**
+ - **splice() method**<br>
  array ထဲရှိ item များ ဖယ်ထုတ်ခြင်း/အစားထိုးခြင်း တို့ အတွက် သုံးသည်။
  #### syntax
  
