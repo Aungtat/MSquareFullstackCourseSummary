@@ -45,7 +45,7 @@
 
  - **callback function  ခေါ်** တဲ့ အခါ  သိမ်းထားတဲ့ **variable name ကိုသာ ရေး**ပေးရမည်။<br>
  `functionOne(functionTwo)` **YES**<br>
- ~~`functionOne(functionTwo())`~~ **NO**
+ `functionOne(functionTwo())`**NO**
 ##
 ### array.map() method
 **မူရင်း array ရှိ item များ အားလုံးကို loopလုပ်**ပေးပြီး **array အသစ်တစ်ခု** ထုတ်ပေးသည်။<br>**မူရင်း array ရှိ item များ အားလုံး ပြောင်းလဲခြင်းမရှိပါ**
