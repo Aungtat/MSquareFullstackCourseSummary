@@ -174,7 +174,7 @@ const getName = youngPeople.map((people,index) => index + " "+people.name);
     
  **index နေရာမှာ တခြားစာလုံးဖြစ်လဲ index တန်ဖိုးကိုပဲ ထုတ်ပေးမှာပါ** 
 ```
-youngPeople.map((people,spiderMan) => spiderMan+ " " + people.name); 
+const getName = youngPeople.map((people,spiderMan) => spiderMan+ " " + people.name); 
 console.log(getName); 
 //output : (3) ['0 Ko Ko', '1 Su Su', '2 Bo Bo']```
  
