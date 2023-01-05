@@ -160,5 +160,22 @@ const  arryItem = [
 
 ```
 
+```
+ `array.map((element, index) => run this);` <br>
+map() method မှာ **callback function** က **parameter နှစ်ခု** လက်ခံရင် <br>**ပထမ parameter** က **element** ကို ခေါ် မှာ ဖြစ်ပြီး <br>**ဒုတိယ parameter**က ထို **element ရဲ့ index** တန်ဖိုး ဖြစ်ပါတယ်။ <br>နမူနာ ပြထားတဲ့ code မှာတော့ <br>`youngPeople.map((people,index) =>people.name);` <br>index ကို parameter အဖြစ်သာ ထည့်ထားပြီး callback function မှာ ဘာလုပ်ဆောင်ချက်မှ မပေးထားပါဘူး။<br>
+ ဒီလိုလေး စမ်းကြည့်ပါ
+```
+const getName = youngPeople.map((people,index) => index + " "+people.name);
+ console.log(getName);     
+ //output : (3) ['0 Ko Ko', '1 Su Su', '2 Bo Bo']
+ ```
+    
+ **index နေရာမှာ တခြားစာလုံးဖြစ်လဲ index တန်ဖိုးကိုပဲ ထုတ်ပေးမှာပါ** 
+```
+youngPeople.map((people,spiderMan) => spiderMan+ " " + people.name); 
+console.log(getName); 
+//output : (3) ['0 Ko Ko', '1 Su Su', '2 Bo Bo']```
+ 
+
  
 > Written with [StackEdit](https://stackedit.io/).
