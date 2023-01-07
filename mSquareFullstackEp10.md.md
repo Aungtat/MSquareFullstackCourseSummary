@@ -117,7 +117,7 @@ fetch(url)
   //ရလာတဲ့ json ကို data အနေနဲ့ သိမ်းလိုက်ပြီး၊ log ထုတ်ကြည့်တာပါ။
 ```
 ### Example 
-> return ပြန်လာတဲ့ array မှ total price ကို ရှာကြည့်ရအောင်။
+> return ပြန်လာတဲ့ data မှ total price ကို ရှာကြည့်ရအောင်။
 ```
 const url ='https://fakestoreapi.com/products?limit=5'
 fetch(url)
