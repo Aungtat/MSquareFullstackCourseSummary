@@ -79,7 +79,7 @@ loop လုပ်ချင်တဲ့အခါ သုံးရပါတယ်�
 ### Array destructuring 
 arrayထဲရှိ item တွေကို ခွဲ/ထုတ် လိုတဲ့အခါ သုံးပါတယ်။
 #### Syntax
-`array-name` = `[ item, item, item, item, ]`;
+`array-name` = `[ item, item, item, item, ]`;<br>
 `[variable-name]` = `array-name` ;
 
 #### Usage
@@ -112,11 +112,11 @@ Object ထဲရှိ item တွေကို ခွဲ/ထုတ် လို�
 
 
     const product = {
-				     id: 1 , 
-				     price: 100 , 
-				     name: "T shirt" , 
-				     color: "blue"
-				     };
+		      id: 1 , 
+		      price: 100 , 
+		      name: "T shirt" , 
+		      color: "blue"
+		     };
     
     const {id,price} = product;
      
@@ -126,11 +126,11 @@ Object ထဲရှိ item တွေကို ခွဲ/ထုတ် လို�
 
 
     const product = {
-				     id: 1 , 
-				     price: 100 , 
-				     name: "T shirt" , 
-				     color: "blue"
-				     };
+		      id: 1 , 
+		      price: 100 , 
+		      name: "T shirt" , 
+		      color: "blue"
+		     };
     
     const discountPrice = ({price}) => console.log(price * 0.9);
      discountPrice(product) 
@@ -144,10 +144,10 @@ Object ထဲရှိ item တွေကို ခွဲ/ထုတ် လို�
    };
 
     const testObj ={
-				    name : "MSqure programing",
-				    type : "Web Dev",
-				    course : "fullstack"
-				    };
+			name : "MSqure programing",
+			type : "Web Dev",
+			course : "fullstack"
+		    };
 	for( let superman in testObj){
 	    console.log({ [superman]: testObj[superman]});
 	    };
