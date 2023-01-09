@@ -139,8 +139,8 @@ Object ထဲရှိ item တွေကို ခွဲ/ထုတ် လို�
    ##
    ### for in loop 
    #### Syntax
-   **`for`** ( **`variable`** **in** **`Object-name`**){
-   console.log ( { **[** **`variable`** **]** `:` **`Object-name`** **[** **`variable`** **]**} );
+   **`for`** ( **`variable`** **in** **`Object-name`**){<br>
+   console.log ( { **[** **`variable`** **]** `:` **`Object-name`** **[** **`variable`** **]**} );<br>
    };
 
     const testObj ={
