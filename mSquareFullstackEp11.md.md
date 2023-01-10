@@ -37,7 +37,7 @@ DOM (**D**ocument **O**bject **M**odel)<br>
 <br>
 
 >Using QuerySelecter
-<iframe src="https://drive.google.com/file/d/1XeuAkI6RKXf5aKNNkapGLV4vVAqajo68/preview" width="640" height="480" allow="autoplay"></iframe>
+https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/query.jpg
 
 > class name တူသော element များကို တစ်ခါထည်း လှမ်းယူလိုပါက querySelectorAll() ကို အသုံးပြုနိုင်
 
