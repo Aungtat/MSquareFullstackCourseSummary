@@ -162,11 +162,11 @@ Conditional (if , else) ကို အတိုကောက်ရေးနည်�
 **condition** `?` *true* `:` *false* ;
 > Example (True)
 > 
-const `num1` = `20`;
+const `num1` = `20`;<br>
 `num1 === 20` **`? console.log("All right")`**  `: console.log("Nottt!!")`  ;
 //output : All right
 > Example (False)
 > 
-const `num1` = `56`;
+const `num1` = `56`;<br>
 `num1 === 20` `? console.log("All right")`  ***`: console.log("Nottt!!")`***  ;
 //output :Nottt!!
