@@ -85,7 +85,8 @@ newDiv.style.cssText =`color:blue;
                        border: 1px solid black;`
 ```
 > **Template literal**
-<br>string ထဲမှာ code တွေ variable တွေ ထည့်ရေးလိုတဲ့အခါ အသုံးပြုပါတယ်။
+
+<br>(string ထဲမှာ code တွေ variable တွေ ထည့်ရေးလိုတဲ့အခါ အသုံးပြုပါတယ်။)
 
 > `backtick key` ( **``**  ) နှစ်ခုထဲမှာ ထည့်ရေးပေးရပါမယ်။
    
