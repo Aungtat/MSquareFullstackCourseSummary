@@ -4,10 +4,9 @@
 
 CLI (**C**ommand **L**ine **I**nterface)<br>
   အကြောင်း လေ့လာသွားမှာပါ။
-  > **interface**
-  <br>
+  ### **interface**
 အရာ တစ်ခု ကနေ နောက်အရာတစ်ခုကို ပေါင်းကူး ဆက်သွယ်ပေးတဲ့ ကြားခံအရာတစ်ခု ဖြစ်ပါတယ်။
-
+## 
 ### GUI ( Graphical User Interface)
 ထိတွေ့ကိုင်တွယ်လို့ ရသော Interface ။<br>
 >တစ်နည်း
