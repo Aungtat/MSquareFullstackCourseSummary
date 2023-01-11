@@ -5,17 +5,18 @@
 CLI (**C**ommand **L**ine **I**nterface)<br>
   အကြောင်း လေ့လာသွားမှာပါ။
   > **interface**
+  <br>
 အရာ တစ်ခု ကနေ နောက်အရာတစ်ခုကို ပေါင်းကူး ဆက်သွယ်ပေးတဲ့ ကြားခံအရာတစ်ခု ဖြစ်ပါတယ်။
 
 ### GUI ( Graphical User Interface)
 ထိတွေ့ကိုင်တွယ်လို့ ရသော Interface ။<br>
 >တစ်နည်း
 
-User များ အသုံးပြုရ လွယ်ကူစေရန် ပြုလုပ်ပေးထားသော Interface<br>
+User များ အသုံးပြုရ လွယ်ကူစေရန် ပြုလုပ်ပေးထားသော Interface<br><br>
 ![enter image description here](https://study.com/cimages/videopreview/videopreview-full/what-is-a-graphical-user-interface-gui-definition-components-examples_117052.jpg)
 ##
 ### TUI (Text User Interface)
-Text/command တွေနဲ့သာ အသုံးပြုနိုင်အောင် ပြုလုပ်ပေးထားသော interface<br>
+Text/command တွေနဲ့သာ အသုံးပြုနိုင်အောင် ပြုလုပ်ပေးထားသော interface<br><br>
 ![enter image description here](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Linux_command-line._Bash._GNOME_Terminal._screenshot.png/800px-Linux_command-line._Bash._GNOME_Terminal._screenshot.png)
 ##
 ### CLI (**C**ommand **L**ine **I**nterface)
