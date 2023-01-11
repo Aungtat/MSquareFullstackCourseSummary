@@ -20,7 +20,8 @@ Text/command တွေနဲ့သာ အသုံးပြုနိုင်အ
 ##
 ### CLI (**C**ommand **L**ine **I**nterface)
 <br>
-![cli](https://brainstormcreative.co.uk/wp-content/uploads/git-bash-what-directory-am-i-in.png)
+
+![enter image description here](https://brainstormcreative.co.uk/wp-content/uploads/git-bash-what-directory-am-i-in.png)
 <br>
 Computer ရှိ Command Prompt/terminal မှ တစ်ဆင့် Command line များအသုံးပြုပြီး <br>
 file,folder စတာတွေကို ထိန်းချုပ်ဖန်တီးသည့် နည်းပညာဖြစ်သည်။<br>
