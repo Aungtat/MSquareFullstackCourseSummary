@@ -19,6 +19,9 @@ Text/command တွေနဲ့သာ အသုံးပြုနိုင်အ
 ![enter image description here](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Linux_command-line._Bash._GNOME_Terminal._screenshot.png/800px-Linux_command-line._Bash._GNOME_Terminal._screenshot.png)
 ##
 ### CLI (**C**ommand **L**ine **I**nterface)
+<br>
+![cli](https://brainstormcreative.co.uk/wp-content/uploads/git-bash-what-directory-am-i-in.png)
+<br>
 Computer ရှိ Command Prompt/terminal မှ တစ်ဆင့် Command line များအသုံးပြုပြီး <br>
 file,folder စတာတွေကို ထိန်းချုပ်ဖန်တီးသည့် နည်းပညာဖြစ်သည်။<br>
 file,folder စတာတွေကို Command Prompt/terminal မှ <br>တစ်ဆင့် အောက်ပါ Command lineများ ရေးထည့်ပေးခြင်းဖြင့် <br>အလွယ်တကူ လျင်လျင်မြန်မြန် ထိန်းချုပ်ဖန်တီးနိုင်သည်။
