@@ -13,7 +13,7 @@ Project တစ်ခုမှာ ပြောင်းလဲပြင်ဆင�
 Git ကို ကွန်ပြူတာထဲ install လုပ်ပေးထားပါ။
 VS code မှာ project folder ကို ဖွင့်ပါ။
 new terminal ( ctrl + ` )ကို ဖွင့်ပါ။
-terminal ထဲ **git init** ကို ရေးပြီး enter ခေါက်ပါ။
+terminal ထဲ **git init** ကို ရေးပြီး enter ခေါက်ပါ။<br>
 ![enter image description here](https://static.javatpoint.com/tutorial/git/images/git-init.png)
 > project folder ထဲ git ရှိ မရှိ သိချင်ရင် 
 - vs code မှာ `ctrl` + `,` ကို နှိပ်ပါ
@@ -35,7 +35,7 @@ Project တစ်ခုမှာ ပြောင်းလဲပြင်ဆင�
 
 <BR>
 Project folder ထဲ FILE တစ်ခု အသစ်လုပ်ကြည့်ပါ။
-ပြီးရင် git status လုပ်ကြည့်ပါ။
+ပြီးရင် git status လုပ်ကြည့်ပါ။<br><br>
 
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/git1.jpg?raw=true)
 - Untracked file ဆိုတာက git က မိမိပြောင်းလဲလုပ်ဆောင်ချက်တွေ ကို တွေ့သော်လည်း အလုပ်လုပ်နေဆဲ အဆင့်မှာပဲ ရှိနေသေးပြီး သိမ်းရန် အသင့်မဖြစ်သေးကြောင်း အနီရောင်နဲ့ ပြနေတာပါ။
@@ -43,7 +43,7 @@ Project folder ထဲ FILE တစ်ခု အသစ်လုပ်ကြည်�
 
     git add index.html 
 
-    git status
+    git status<br>
     <br>![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/git2.jpg?raw=true)
 
 - Changes to be committed: ဆိုတာက သိမ်းရန်အသင့်ဖြစ်တဲ့ အဆင့်ကို ရောက်နေကြောင်း ပြောတာပါ။
@@ -52,7 +52,7 @@ Project folder ထဲ FILE တစ်ခု အသစ်လုပ်ကြည်�
 - ပြီးရင် `git log` command နဲ့ git မှာ မိမိလုပ်ဆောင်ချက်ကို ပြန်စစ်လို့ရပါတယ်.
 - (1)  `git commit -m "Start New commit"`
 - (2)  `git log`
-- (3) သိမ်းလိုက်တဲ့ commit ကို ပြပေးထားတာပါ<br>
+- (3) သိမ်းလိုက်တဲ့ commit ကို ပြပေးထားတာပါ<br><br>
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/git3.jpg?raw=true)
 - ဒီအချိန်မှာ git status ကို ပြန်ခေါ်ကြည့်မယ်ဆိုရင် **nothing to commit, working tree clean**(သိမ်းဆည်းရန် ပြုပြင်ပြောင်းလဲချက်မရှိပါ) လို့ ပြနေပါမယ်။ဘာလို့လဲဆိုတော့ ကျနော်တို့ ကပြုပြင်ပြောင်းလဲချက်ကို commit လုပ်ထားပြီးသားမလို့ပါ။
 ##
