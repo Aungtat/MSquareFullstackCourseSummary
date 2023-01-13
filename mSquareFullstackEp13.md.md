@@ -35,9 +35,7 @@ Project တစ်ခုမှာ ပြောင်းလဲပြင်ဆင�
 
 <BR>
 Project folder ထဲ FILE တစ်ခု အသစ်လုပ်ကြည့်ပါ။
-ပြီးရင် git status လုပ်ကြည့်ပါ။
-    <br>
-<br>
+ပြီးရင် git status လုပ်ကြည့်ပါ။<br><br>
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/git1.jpg?raw=true)
 - Untracked file ဆိုတာက git က မိမိပြောင်းလဲလုပ်ဆောင်ချက်တွေ ကို တွေ့သော်လည်း အလုပ်လုပ်နေဆဲ အဆင့်မှာပဲ ရှိနေသေးပြီး သိမ်းရန် အသင့်မဖြစ်သေးကြောင်း အနီရောင်နဲ့ ပြနေတာပါ။
 - သိမ်းရန်အဆင်သင့်ဖြစ်ကြောင်း **`git add` (file-name)** command ကို ရေးပေးရပါတယ်။
