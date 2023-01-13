@@ -1,5 +1,5 @@
 ﻿## MSquare Programing Fullstack Course
-#### Episode-11 Summary
+#### Episode-13 Summary
 ဒီနေ့သင်တန်းမှာတော့
 
 **Git** အကြောင်း လေ့လာသွားမှာပါ။
