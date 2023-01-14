@@ -43,10 +43,10 @@ main branch ကနေ feat/tab ဆိုတဲ့ branch အသစ်ကို �
 track လုပ်ထားပြီးသော commitများကို git add လုပ်စရာမလိုပဲ တစ်ခါထည်း commit လုပ်လိုက်လို့ရပါတယ်
 > example
 
-ကျနော်တို့ index.html ဖိုင်ထဲမှာ h1 tag နဲ့ welcome to yangon လို့ ရေးထည့်ပြီး save  ကာ commit အသစ်တစ်ခုသိမ်းမယ်ဆိုရင် git add bla bla...လုပ်စရာ မလိုတော့ပဲ  `git commit -am "added welcome h1 tag"` ဆိုပြီး တန်းသိမ်း(commit)လိုက်လို့ရပါတယ်။git log ခေါ်ကြည့်တဲ့ အခါ commit ၂ ခု ကို တွေ့ရမှာပါ။<br>
+ကျနော်တို့ index.html ဖိုင်ထဲမှာ h1 tag နဲ့ welcome to yangon လို့ ရေးထည့်ပြီး save  ကာ commit အသစ်တစ်ခုသိမ်းမယ်ဆိုရင် git add bla bla...လုပ်စရာ မလိုတော့ပဲ  `git commit -am "added welcome h1 tag"` ဆိုပြီး တန်းသိမ်း(commit)လိုက်လို့ရပါတယ်။git log ခေါ်ကြည့်တဲ့ အခါ commit 2 ခု ကို တွေ့ရမှာပါ။<br>
 <br>
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/git2-3.jpg?raw=true)
-- ခု လက်ရှိ `feat/tab` branch ထဲမှာ commit လုပ်လိုက်တာမို့လို့ `master` branch မှာ သက်ရောက်မှု မရှိပဲ git switch စလုပ်ကာစ အနေအထားတိုင်းပဲ commit တစ်ခုပဲ ရှိတာ သတိပြုပါ။<br>
+- ခု လက်ရှိ `feat/tab` branch ထဲမှာ commit လုပ်လိုက်တာမို့လို့ `master` branch မှာ သက်ရောက်မှု မရှိပဲ git switch စလုပ်ကာစ အနေအထားတိုင်းပဲ commit တစ်ခုပဲ ရှိတာ သတိပြုပါ။<br><br>
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/git2-4.jpg?raw=true)
 
 ### git reset
