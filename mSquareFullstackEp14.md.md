@@ -91,11 +91,11 @@ branch  နှစ်ခု ပေါင်းတဲ့(merge) အခါ တစ�
 >Example
 
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/git2-7.jpg?raw=true)
-<br>
+<br><br>
 ပုံပါ အတိုင်း branch နှစ်ခုမှာ မတူညီတဲ့ commit တစ်ခုစီ မှတ်တမ်းတင်ထားပါတယ်။
-git merge လုပ်လိုက်တဲ့ အခါမှာတော့ အောက်ကပုံအတိုင်း conflict ပြဿနာ  ဖြစ်လာပါပြီး။<br>
+git merge လုပ်လိုက်တဲ့ အခါမှာတော့ အောက်ကပုံအတိုင်း conflict ပြဿနာ  ဖြစ်လာပါပြီး။<br><br>
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/git2-9.jpg?raw=true)
-<br>
+<br><br>
 merge conflict ဖြစ်လာပြီးဆိုရင်တော့ မြားပြထားတဲ့နေရာမှာ
 လိုချင်တဲ့အတိုင်း ရွေးချယ်ကာ branch တွေကို merge  လုပ်ပေးရမှာ ဖြစ်ပါတယ်။
 ##
