@@ -17,7 +17,7 @@
  အ့တာတွေကို git add/ git commit လုပ်ပြီး commit တစ်ခု မှတ်တမ်းတင်ထားပါတယ်။<br>
  git branch လို့ ရိုက်ထည့်လိုက်တဲ့အခါမှာတော့ လက်ရှိရောက်နေတဲ့ branch အမည်ကို အစိမ်းရောင်( * )အမှတ်အသားနဲ့ ပြပေးနေပါတယ်။
 <br>
-git log ထုတ်ကြည့်လိုက်ရင်လဲ HEAD -> masterဆိုပြီး ပြပေးပါတယ်။ ပုံအရ ကြည့်လိုက်ရင် ခု လက်ရှိ master branch ထဲ ရောက်နေတာပါ။
+git log ထုတ်ကြည့်လိုက်ရင်လဲ HEAD -> masterဆိုပြီး ပြပေးပါတယ်။ ပုံအရ ကြည့်လိုက်ရင် ခု လက်ရှိ master branch ထဲ ရောက်နေတာပါ။<br>
 <br>
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/git2-1.jpg?raw=true)
 
@@ -26,7 +26,7 @@ git log ထုတ်ကြည့်လိုက်ရင်လဲ HEAD -> master
 git branch တစ်ခု ကနေ နောက်တစ်ခြား branch တစ်ခုကို သွားချင်ရင် `git switch branch-name` ကို သုံးပါတယ်။<br>
 ခု ကျနော်တို့မှာက branch တစ်ခုပဲရှိတဲ့ အတွက် နောက်ထပ် branch တစ်ခု ပြုလုပ်ပြီးမှ လက်ရှိ branch ကနေ သွားလို့ရမှာပါ။<br>
 ဒါကြောင့်မလို့ ကျနော်တို့က `git switch -c new-branch-name` ကို သုံးရပါမယ်။ဒီ command က **ပေးလိုက်တဲ့ နာမည်နဲ့ branch အသစ်တစ်ခု လုပ်**ပေးပြီး ၊ ထို **အသစ်လုပ်တဲ့ branch ထဲ တစ်ခါထဲ ၀င်ရောက်ပေးသွားမှာ** ဖြစ်ပါတယ်။<br>
-ဒါ့အပြင် **လက်ရှိ branch က commit history တွေကို အကုန်ကူးယူပြီး အသစ်လုပ်တဲ့ branch ထဲ သွားထည့်ပေး**သွားမှာပါ။<br>
+ဒါ့အပြင် **လက်ရှိ branch က commit history တွေကို အကုန်ကူးယူပြီး အသစ်လုပ်တဲ့ branch ထဲ သွားထည့်ပေး**သွားမှာပါ။<br><br>
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/git2-2.jpg?raw=true)
 <br>
 - (1) git switch -c feat/tab <br>
@@ -43,7 +43,7 @@ main branch ကနေ feat/tab ဆိုတဲ့ branch အသစ်ကို �
 track လုပ်ထားပြီးသော commitများကို git add လုပ်စရာမလိုပဲ တစ်ခါထည်း commit လုပ်လိုက်လို့ရပါတယ်
 > example
 
-ကျနော်တို့ index.html ဖိုင်ထဲမှာ h1 tag နဲ့ welcome to yangon လို့ ရေးထည့်ပြီး save  ကာ commit အသစ်တစ်ခုသိမ်းမယ်ဆိုရင် git add bla bla...လုပ်စရာ မလိုတော့ပဲ  `git commit -am "added welcome h1 tag"` ဆိုပြီး တန်းသိမ်း(commit)လိုက်လို့ရပါတယ်။git log ခေါ်ကြည့်တဲ့ အခါ commit ၂ ခု ကို တွေ့ရမှာပါ။
+ကျနော်တို့ index.html ဖိုင်ထဲမှာ h1 tag နဲ့ welcome to yangon လို့ ရေးထည့်ပြီး save  ကာ commit အသစ်တစ်ခုသိမ်းမယ်ဆိုရင် git add bla bla...လုပ်စရာ မလိုတော့ပဲ  `git commit -am "added welcome h1 tag"` ဆိုပြီး တန်းသိမ်း(commit)လိုက်လို့ရပါတယ်။git log ခေါ်ကြည့်တဲ့ အခါ commit ၂ ခု ကို တွေ့ရမှာပါ။<br>
 <br>
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/git2-3.jpg?raw=true)
 - ခု လက်ရှိ `feat/tab` branch ထဲမှာ commit လုပ်လိုက်တာမို့လို့ `master` branch မှာ သက်ရောက်မှု မရှိပဲ git switch စလုပ်ကာစ အနေအထားတိုင်းပဲ commit တစ်ခုပဲ ရှိတာ သတိပြုပါ။
@@ -53,7 +53,7 @@ track လုပ်ထားပြီးသော commitများကို git
 ### git reset
 git commit တွေကို ဖျက်ချင်/ ပြင်ချင် ရင် သုံးပါတယ်။
 ### git reset --hard commit-ID
-ဒါကတော့ ထည့်ပေးလိုက်တဲ့ commit-ID နောက်က commit  မှတ်တမ်းတွေကို ဖျက်ထုတ်လိုက်တာပါ။<br>
+ဒါကတော့ ထည့်ပေးလိုက်တဲ့ commit-ID နောက်က commit  မှတ်တမ်းတွေကို ဖျက်ထုတ်လိုက်တာပါ။<br><br>
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/git2-5.jpg?raw=true)
 
  1. p tag တစ်ခု လုပ်ပြီး commit လုပ်လိုက်ပါတယ်
@@ -70,7 +70,7 @@ git commit တွေကို ဖျက်ချင်/ ပြင်ချင်
   ##
   ### git merge
   branch တွေကို ပေါင်းဖို့အတွက် သုံးပါတယ်။
-  #### `git merge branch-name` လို့ ရေးပေးရပါတယ်။
+  #### `git merge branch-name` လို့ ရေးပေးရပါတယ်။<br>
   ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/git2-6.jpg?raw=true)
   
  1. **`git switch master`**
