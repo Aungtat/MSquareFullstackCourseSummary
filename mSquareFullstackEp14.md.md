@@ -61,7 +61,7 @@ git commit တွေကို ဖျက်ချင်/ ပြင်ချင်
 ### git reset --soft commit-ID
  ထည့်ပေးလိုက်တဲ့ commit ကို staging area(သိမ်းရန် အသင့်ဖြစ်သောအဆင့်)သို့ ပြန်ပို့ထားပေးတာပါ။
  ### git reset --mixed commit-ID
-  ထည့်ပေးလိုက်တဲ့ commit ကို working tree (သိမ်းရန် အသင့်ဖြစ်သောအဆင့်)သို့ ပြန်ပို့ထားပေးတာပါ။
+  ထည့်ပေးလိုက်တဲ့ commit ကို working tree (အလုပ်လုပ်နေသောနေရာ working dir)သို့ ပြန်ပို့ထားပေးတာပါ။
   ### git reset commit-ID
   git reset --mixed commit-ID ကဲ့သို့ပဲ   ထည့်ပေးလိုက်တဲ့ commit ကို working tree (သိမ်းရန် အသင့်ဖြစ်သောအဆင့်)သို့ ပြန်ပို့ထားပေးတာပါ။
   ### git checkout commit-ID
