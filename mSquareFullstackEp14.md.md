@@ -3,7 +3,7 @@
 
 ဒီနေ့သင်တန်းမှာတော့ 
  - ‌git branch
- - git checkout
+ - git reset
  - git merge<br>
  စတာတွေ အကြောင်း လေ့လာသွားပါမယ်။
  ##
