@@ -63,7 +63,7 @@ git commit တွေကို ဖျက်ချင်/ ပြင်ချင်
  ### git reset --mixed commit-ID
   ထည့်ပေးလိုက်တဲ့ commit ကို working tree (အလုပ်လုပ်နေသောနေရာ working dir)သို့ ပြန်ပို့ထားပေးတာပါ။
   ### git reset commit-ID
-  git reset --mixed commit-ID ကဲ့သို့ပဲ   ထည့်ပေးလိုက်တဲ့ commit ကို working tree (သိမ်းရန် အသင့်ဖြစ်သောအဆင့်)သို့ ပြန်ပို့ထားပေးတာပါ။
+  git reset --mixed commit-ID ကဲ့သို့ပဲ   ထည့်ပေးလိုက်တဲ့ commit ကို working tree  (အလုပ်လုပ်နေသောနေရာ working dir)သို့ ပြန်ပို့ထားပေးတာပါ။
   ### git checkout commit-ID
   သိမ်းထားတဲ့ commit တွေကို ဘာမှ သက်ရောက်မှု မရှိစေပဲ ကြည့်ချင်တဲ့ commit ကို သွားကြည့်ဖို့အတွက် သုံးပါတယ်။ git checkout ကို အသုံးပြုပုံ ရှုပ်ထွေးတဲ့အတွက် လက်တွေ့မှာတော့ သိပ်အသုံးပြုလေ့မရှိကြပါဘူး။
   ##
