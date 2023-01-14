@@ -85,7 +85,8 @@ git commit တွေကို ဖျက်ချင်/ ပြင်ချင်
 ဘာလို့လဲဆိုတော့ **`master branch` မှာ `feat/tab branch` ကို လာပေါင်းထည့်လိုက်တဲ့အတွက် `feat/tab branch` က commit မှတ်တမ်းတွေပါ ပေါင်းထည့်ပေးလိုက်လို့ ဖြစ်ပါတယ်**။
 ## 
 ### merge conflict
-branch  နှစ်ခု ပေါင်းတဲ့(merge) အခါ တစ်ခုက commit history ဟာ နောက် merge လုပ်မယ့် branch က commit history နဲ့ ကိုက်ညီမှု ရှိရပါမယ်။ merge လုပ်မယ့် branch က commit history ဟာ
+branch  နှစ်ခု ပေါင်းတဲ့(merge) အခါ တစ်ခုက commit history ဟာ နောက် merge လုပ်မယ့် branch က commit history နဲ့ ကိုက်ညီမှု ရှိရပါမယ်။ <br>
+merge လုပ်မယ့် branch က commit history ဟာ
 နောက်merge လုပ်မယ့် branch က commit historyထဲ ပါရမယ့်သဘောပါ။ <br>
 အထက်ပါအတိုင်း ကိုက်ညီမှု မရှိခဲ့ရင် conflict ရှုပ်ထွေးမှု ပြဿနာ ဖြစ်ပေါ်လာတက်ပါတယ်။ အောက်က exampleကို လေ့လာကြည့်ရအောင်
 >Example
