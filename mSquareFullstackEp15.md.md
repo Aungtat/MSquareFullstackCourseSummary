@@ -80,9 +80,9 @@ git clone ရေး space ခြားပြီး copy ယူထားတဲ့
 <br><br>
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/git13.jpg?raw=true)
 <br>
-- You appear to have cloned an empty repo...လို့ ပေါ်လာရင်  clone လုပ်ခြင်း ပြီးပါပြီး။
-<br><br>
-## .
+- You appear to have cloned an empty repo...လို့ ပေါ်လာရင်  clone လုပ်ခြင်း ပြီးပါပြီး။<br><br>
+
+## 
 ### Github  ပေါ်တွင် သိမ်းဆည်းခြင်း
 vs  code မှာ projects folder အောက်က msquarefdc folder ထဲမှာ index.html ဖိုင်တစ်ခု create လုပ်ကြည့်ပြီး git commit လုပ်ပါမယ်။<br><br>
 
