@@ -38,7 +38,8 @@
  <br> <br>
 - Enter ကို သာ အောက်ကပုံလို မပေါ်မချင်း နှိပ်သွားပေးပါ။<br><br>
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/github5.jpg?raw=true)
-<br>
+
+<br><br>
 - `eval "$(ssh-agent -s)"` ရိုက်ထည့်ပြီး enter ခေါက်ပါ။ (Agent pid..) ပြပေးမည်။
 - `ssh-add ~/.ssh/id_ed25519` ထပ်ရိုက် enter ခေါက်ပါ။ 
 Identity added  ..... ဆိုပြီး ပြပေးပါမည်။<br><br>
