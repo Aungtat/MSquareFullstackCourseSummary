@@ -30,7 +30,7 @@
 #### git push လုပ်ကြည့်ပါ။
 #### error ပြလာပါလိမ့်မယ်။ အလယ်က git push --set-upstream စာကြောင်းကို အကုန်copy လုပ်ပါ။
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/gitpull5.jpg?raw=true)
-#### copy ကူးထားတဲ့ စာကြောင်းကို paste( R-click)လုပ်ပြီး enter ခေါက်ပေးလိုက်ပါ က nwe branch .....ဆိုပြီး စာကြောင်းပြလာရင် git push လုပ်ခြင်း အောင်မြင်ပါပြီး
+#### copy ကူးထားတဲ့ စာကြောင်းကို paste( R-click)လုပ်ပြီး enter ခေါက်ပေးလိုက်ပါ က new branch .....ဆိုပြီး စာကြောင်းပြလာရင် git push လုပ်ခြင်း အောင်မြင်ပါပြီး
 ##### Access denied errorပြနေပါက ပထမဆုံးအဆင့်ဖြစ်တဲ့ ဖိတ်ခေါ်ထားတာကို  join မလုပ်သေးလို့ ဖြစ်နိုင်သလို ဖိတ်ခေါ်ချက် မရသေးတာလဲ ဖြစ်နိုင်ပါတယ်။ ဒါဆိုရင်တော့ ဆရာ့ဆီ စာပို့ပြီး github name  ပေးကာ invite  လုပ်ပေးဖို့ ခွင့်တောင်းပါ 
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/gitpull6.jpg?raw=true)
 ### https://github.com/msquareprogramming/msquarefdc
