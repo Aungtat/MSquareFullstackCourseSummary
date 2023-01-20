@@ -72,14 +72,14 @@ git commit တွေကို ဖျက်ချင်/ ပြင်ချင်
   #### `git merge branch-name` လို့ ရေးပေးရပါတယ်။<br>
   ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/git2-6.jpg?raw=true)
   
- 1. **`git switch master`**
+ 1. **`git switch master`**<br>
  `master branch` မှာ `feat/tab branch` ကို သွားပေါင်းထည့်ဖို့အတွက် **လက်ရှိ  `feat/tab branch` ကနေ `master branch` ကို သွား**လိုက်တာပါ။<br>
-2. **`git log --oneline`**
+2. **`git log --oneline`**<br>
  `master branc`h မှာ ရှိတဲ့ commit တွေကို ကြည့်တာပါ။
 လက်ရှိမှာတော့ master branch မှာ **commit တစ်ခုသာ** ရှိတာကို မြင်ရမှာပါ။
-3. **`git merge feat/tab`**
+3. **`git merge feat/tab`**<br>
 `master branch` မှာ `feat/tab branch` ကို **ပေါင်းထည့်လိုက်တာပါ**
-4. **`git log --oneline`**
+4. **`git log --oneline`**<br>
  `master branch` မှာ ရှိတဲ့ commit တွေကို ထပ်ကြည့်တာပါ။
 လက်ရှိမှာတော့  `master branch`မှာ **commit နှစ်ခုမြင်ရမှာပါ။**
 ဘာလို့လဲဆိုတော့ **`master branch` မှာ `feat/tab branch` ကို လာပေါင်းထည့်လိုက်တဲ့အတွက် `feat/tab branch` က commit မှတ်တမ်းတွေပါ ပေါင်းထည့်ပေးလိုက်လို့ ဖြစ်ပါတယ်**။
