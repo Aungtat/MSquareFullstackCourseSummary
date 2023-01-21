@@ -54,7 +54,7 @@ fs ဆိုတဲ့ variable ထဲ သိမ်းလိုက်တာပါ
 ##
 #### terminal ကို ဆက်ကြည့်လိုက်တဲ့အခါ
 
-    Node မှာ run ဖို့  `node`  `file-name.file-type`  လို့ terminal မှာ ရေးပေးရပါမယ်။ 
+    Node မှာ run ဖို့  node  file-name.file-type  လို့ terminal မှာ ရေးပေးရပါမယ်။ 
     ပုံထဲမှာတော့
     ခုနက ကျနော်တို့ ရေးထားတဲ့ server.js ဖိုင်ကို node မှာ run ချင်တာမလို့ 
     node server.js  လို့ ရေးပါမယ်။
@@ -79,7 +79,7 @@ fs ဆိုတဲ့ variable ထဲ သိမ်းလိုက်တာပါ
 
  ### 1 - server.js ဖိုင်တစ်ခု ဆောက်ပါ။
   ### 2 - server.js ထဲမှာ log တစ်ခု ထုတ်ကြည့်ပါမယ်။
-   ### 3 - Node မှာ run ဖို့ `node` `file-name.file-type` လို့ terminal မှာ ရေးပေးရပါမယ်။ ပုံထဲမှာတော့ 
+   ### 3 - Node မှာ run ဖို့ node file-name.file-type လို့ terminal မှာ ရေးပေးရပါမယ်။ ပုံထဲမှာတော့ 
   #### ခုနက ကျနော်တို့ ရေးထားတဲ့ server,js ဖိုင်ကို node မှာ run ချင်တာမလို့ `node server.js` လို့ ရေးပါမယ်။
 #### အောက်မှာ ကျနော်တို့ log ထုတ်ထားတဲ့ hello node ကို terminal ထဲမှာပဲ ပြပေးနေတာ တွေ့ရမှာပါ။
    
