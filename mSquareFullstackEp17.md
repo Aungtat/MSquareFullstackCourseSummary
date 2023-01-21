@@ -72,7 +72,7 @@ fs ဆိုတဲ့ variable ထဲ သိမ်းလိုက်တာပါ
 - **၀င်ပေါက် ( `port`)** လိုအပ်ပါတယ်။
 >  **http `IP-address` `:` `port` http://127.0.0.1:3000**   
 ### serverကို ထို လိပ်စာနဲ့ ၀င်ပေါက်မှာ အသင့်စောင့်(`listen`) နေပြီး ၀င်လာသမျှ အချက်အလက် ( `request`) တွေကို လက်ခံကာ သက်ဆိုင်ရာ အချက်အလက်များကို ပြန်လည်( `response`) ထုတ်ပေးပါတယ်။
-![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/server.jpg?raw=true)
+![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/server1.jpg?raw=true)
  ##
  ### Testing JavaScript on `node Server`
  
