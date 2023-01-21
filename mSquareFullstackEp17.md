@@ -2,9 +2,9 @@
 ### Episode-*17* Summary
 
 ဒီနေ့သင်တန်းမှာတော့ <br>
-#### Node js
-#### file system module ( fs )
-#### web server 
+### Node js
+### file system module ( fs )
+### web server 
 အကြောင်း လေ့လာသွားပါမယ်။
 ##
 
@@ -15,21 +15,21 @@ backend ( server ) ပိုင်းမှာ ကျေတာ့ အခြာ�
 
 ##
 ### fs ( file system )
-#### fs ဆိုတာ node js မှာပါတဲ့ module( object/function) တွေထဲက တစ်ခု ဖြစ်ပါတယ်။ 
+### fs ဆိုတာ node js မှာပါတဲ့ module( object/function) တွေထဲက တစ်ခု ဖြစ်ပါတယ်။ 
 fs ကို အသုံးပြုပြီး  file အသစ်လုပ်/ဖတ်/ရေး/ပြင်/ဖျက် စတာတွေအပြင် folder တွေကို လဲ စီမံထိန်းချုပ်လို့ ရပါတယ်။
 
-####  အရင်ဆုံး မိမိ computer ထဲ nodeJS ကို install လုပ်ထားပါ။
+###  အရင်ဆုံး မိမိ computer ထဲ nodeJS ကို install လုပ်ထားပါ။
  မိမိစက်ထဲ NodeJS ရှိ မရှိ သိလိုပါက `node -v` command ကို terminal ထဲ ထည့်ပေးကြည့်ပါ။
-#### `v18....` လို့ ပြပေးပါက node တပ်ဆင်ထားပြီး ဖြစ်ပါသည်။
+### `v18....` လို့ ပြပေးပါက node တပ်ဆင်ထားပြီး ဖြစ်ပါသည်။
  ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/node1.jpg?raw=true)
  ##
-#### fs ကို အသုံးပြုပြီး ဖိုင်တစ်ခု ဖတ်ကြည့်ရအောင်
-##### အရင်ဆုံး index.html ဖိုင်တစ်ခု ဆောက်ပါ။
+### fs ကို အသုံးပြုပြီး ဖိုင်တစ်ခု ဖတ်ကြည့်ရအောင်
+#### အရင်ဆုံး index.html ဖိုင်တစ်ခု ဆောက်ပါ။
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/nodeserver1.jpg?raw=true)
-##### server.js  ဖိုင် တစ်ခုဆောက်ပြီး အောက်ပါကုဒ်တွေ ရေးထည့်ပေးပါ
+#### server.js  ဖိုင် တစ်ခုဆောက်ပြီး အောက်ပါကုဒ်တွေ ရေးထည့်ပေးပါ
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/nodefs.jpg?raw=true)
 > ရှင်းလင်းချက်
-#### `const fs = require(“fs”);`
+### `const fs = require(“fs”);`
 
 ```
 file system module ကို require function သုံးပြီး node ကနေ လှမ်းယူလိုက်ပြီး 
@@ -64,52 +64,52 @@ fs ဆိုတဲ့ variable ထဲ သိမ်းလိုက်တာပါ
 ##
 ##
 ### http and server
-#### http ဆိုတာ *server( backend)*  နဲ့  *browser(frontend)* ကို ချိတ်ဆက်ပေးတဲ့ နည်းပညာ ဖြစ်ပါတယ်။ node js မှာ http ကို အသုံးပြုပြီး web server တစ်ခုကို ကိုယ်တိုင် တည်ဆောက်လို့ရပါတယ်။
+### http ဆိုတာ *server( backend)*  နဲ့  *browser(frontend)* ကို ချိတ်ဆက်ပေးတဲ့ နည်းပညာ ဖြစ်ပါတယ်။ node js မှာ http ကို အသုံးပြုပြီး web server တစ်ခုကို ကိုယ်တိုင် တည်ဆောက်လို့ရပါတယ်။
 
-#### server ဆိုတာက browser(frontend) မှာ ပြပေးမယ့် (ပြုလုပ်ချင်တဲ့)အချက်အလက်တွေကို စီမံခန့်ခွဲပေးတဲ့ နေရာ လို့ အလွယ်သတ်မှတ်နိုင်ပါတယ်။ 
+### server ဆိုတာက browser(frontend) မှာ ပြပေးမယ့် (ပြုလုပ်ချင်တဲ့)အချက်အလက်တွေကို စီမံခန့်ခွဲပေးတဲ့ နေရာ လို့ အလွယ်သတ်မှတ်နိုင်ပါတယ်။ 
 ဆာဗာ ကို ၀င်ရောက် အသုံးပြုနိုင်ဖို့အတွက် 
 - **လိပ်စာ( `IP address`)**
 - **၀င်ပေါက် ( `port`)** လိုအပ်ပါတယ်။
 >  **http `IP-address` `:` `port` http://127.0.0.1:3000**   
-#### serverကို ထို လိပ်စာနဲ့ ၀င်ပေါက်မှာ အသင့်စောင့်(`listen`) နေပြီး ၀င်လာသမျှ အချက်အလက် ( `request`) တွေကို လက်ခံကာ သက်ဆိုင်ရာ အချက်အလက်များကို ပြန်လည်( `response`) ထုတ်ပေးပါတယ်။
+### serverကို ထို လိပ်စာနဲ့ ၀င်ပေါက်မှာ အသင့်စောင့်(`listen`) နေပြီး ၀င်လာသမျှ အချက်အလက် ( `request`) တွေကို လက်ခံကာ သက်ဆိုင်ရာ အချက်အလက်များကို ပြန်လည်( `response`) ထုတ်ပေးပါတယ်။
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/server.jpg?raw=true)
  ##
  ### Testing JavaScript on `node Server`
  
 
- #### 1 - server.js ဖိုင်တစ်ခု ဆောက်ပါ။
-  #### 2 - server.js ထဲမှာ log တစ်ခု ထုတ်ကြည့်ပါမယ်။
-   #### 3 - Node မှာ run ဖို့ `node` `file-name.file-type` လို့ terminal မှာ ရေးပေးရပါမယ်။ ပုံထဲမှာတော့ 
-  ##### ခုနက ကျနော်တို့ ရေးထားတဲ့ server,js ဖိုင်ကို node မှာ run ချင်တာမလို့ `node server.js` လို့ ရေးပါမယ်။
+ ### 1 - server.js ဖိုင်တစ်ခု ဆောက်ပါ။
+  ### 2 - server.js ထဲမှာ log တစ်ခု ထုတ်ကြည့်ပါမယ်။
+   ### 3 - Node မှာ run ဖို့ `node` `file-name.file-type` လို့ terminal မှာ ရေးပေးရပါမယ်။ ပုံထဲမှာတော့ 
+  #### ခုနက ကျနော်တို့ ရေးထားတဲ့ server,js ဖိုင်ကို node မှာ run ချင်တာမလို့ `node server.js` လို့ ရေးပါမယ်။
 #### အောက်မှာ ကျနော်တို့ log ထုတ်ထားတဲ့ hello node ကို terminal ထဲမှာပဲ ပြပေးနေတာ တွေ့ရမှာပါ။
    
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/node2.jpg?raw=true)
-#### ထပ်ပြီး setTimeout function  တစ်ခု ထည့်စမ်းကြည့်ပါမယ်
+### ထပ်ပြီး setTimeout function  တစ်ခု ထည့်စမ်းကြည့်ပါမယ်
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/node3.jpg?raw=true)
 
 > nodeJs သည် **sever ( back-end) မှာ သုံးတာမလို့** JS file ထဲ log ထုတ်တာကို **browser/GUI (front-end)မှာ သွားကြည့်စရာမလိုပဲ** TUIဖြစ်တဲ့ **terminal ထဲမှာပဲ log ထုတ်ပေးခြင်း**ကို သတိပြုပါ။
 ##
 ### NodeJSကို အသုံးပြု၍ simple web server တစ်ခု ကိုယ်တိုင် တည်ဆောက်ခြင်း
-#### အရင်ဆုံး web server  မဆောက်ခင် ကျနော်တို့ လိုအပ်တဲ့ moduleတွေကို  node ဆီကနေ လှမ်းယူ ထည့်ပေးရပါမယ်။
+### အရင်ဆုံး web server  မဆောက်ခင် ကျနော်တို့ လိုအပ်တဲ့ moduleတွေကို  node ဆီကနေ လှမ်းယူ ထည့်ပေးရပါမယ်။
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/nodehttp1.jpg?raw=true)
 > ရှင်းလင်းချက်
 
-#### const fs = require("fs");
+### const fs = require("fs");
 
     file system module ကို require function သုံးပြီး node ကနေ လှမ်းယူလိုက်ပြီး 
     fs ဆိုတဲ့ variable ထဲ သိမ်းလိုက်တာပါ။
 
-#### const http = require("http");
+### const http = require("http");
    
 
     http module ကို require function သုံးပြီး node ကနေ လှမ်းယူလိုက်ပြီး 
      http ဆိုတဲ့ variable ထဲ သိမ်းလိုက်တာပါ။
 ##
-#### လိုအပ်တဲ့ module တွေ ထည့်ပြီးပြီ ဆိုရင် web server တစ်ခု စ လုပ်ပါမယ်။
+### လိုအပ်တဲ့ module တွေ ထည့်ပြီးပြီ ဆိုရင် web server တစ်ခု စ လုပ်ပါမယ်။
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/nodehttp2.jpg?raw=true)
 >ရှင်းလင်းချက်
 
-#### const  server = http.createServer((req, res) => { });
+### const  server = http.createServer((req, res) => { });
 
     http module ထဲက createServer ဆိုတဲ့ method ကို သုံးပြီး 
     server တစ်ခု create လုပ်လိုက်တာကို serverဆိုတဲ့ variableထဲ သိမ်းလိုက်တာပါ။
@@ -123,7 +123,7 @@ fs ဆိုတဲ့ variable ထဲ သိမ်းလိုက်တာပါ
     ---
     အတိုကောက်အနေနဲ့ http.createServer((req, res) => { }) ဆိုပြီး ရေးလေ့ရှိပါတယ်။
 
-#### server.listen(3000, () => { });
+### server.listen(3000, () => { });
 
     အထက်မှာ တည်ဆောက်ထားတဲ့ sever အတွက်  ၀င်ပေါက် (port)ကို 3000 အဖြစ်သတ်မှတ်လိုက်ပြီး
     server ကို စောင့်ကြည့်နားထောင်စေလိုက်တာပါ။
@@ -137,7 +137,7 @@ fs ဆိုတဲ့ variable ထဲ သိမ်းလိုက်တာပါ
 >ရှင်းလင်းချက်
 
 >### callback function ( in create server method )
-##### `res.writeHead(200, { "Content-Type":  "text/html" }`);
+#### `res.writeHead(200, { "Content-Type":  "text/html" }`);
 
     server ကနေ response ပြန်လာတဲ့ အခါ browser ကနေ သိအောင် ခေါင်းစီး အဖြစ်ထည့်ပေးလိုက်တာပါ။
     --
@@ -147,27 +147,27 @@ fs ဆိုတဲ့ variable ထဲ သိမ်းလိုက်တာပါ
     --(200) က status code ဖြစ်ပြီး ဆက်သွယ်မှု အောင်မြင်ကြောင်း အသိပေးလိုက်တာပါ။
     --{ "Content-Type":  "text/html" } က serverက response ပြန်တာ 
        html ဖိုင် အမျိုးအစားဖြစ်ပါတယ်လို့ ပြောပြထားတာပါ။
-####  **`res.write("<h1>hello world<h1>");`**
+###  **`res.write("<h1>hello world<h1>");`**
 
     broswer မှာ ပြချင်တဲ့ html ကို response ပြန်တဲ့ အထဲ ရေးထည့်လိုက်တာပါ။
     browser မှာ hello world ဆိုတဲ စာကြောင်းကို header tag အနေနဲ့ ပြပေးပါလို့ ရေးလိုက်တာပါ
-#### `return  res.end();`
+### `return  res.end();`
 
      ဒါကတော့ ရှင်းပါတယ်။ server က response  ပြန်တာပြီးပြီလို့ အသိပေးလိုက်တာပါ။
 ----
 >### callback function ( in server.listen method )
-#### `console.log("Server started: Listening on port 3000");`
+### `console.log("Server started: Listening on port 3000");`
 ဆာဗာကို စတင်လိုက်တဲ့ အချိန်မှာ ဆာဗာကို port 3000 မှာ စတင်ကာ စောင့်ကြည့်နားထောင်နေပြီး ဟု
 terminal မှာ log တစ်ခုထုတ်လိုက်တာပဲ။ ဆာဗာ on /off သိနိုင်ဖို့အတွက် အသုံးပြုကြပါတယ်။
 
 
 >### start server in terminal 
-#### `node server`
+### `node server`
 
     ဒါကတော့ node မှာ server.js ကို ဖွင့်လိုက်တာပါ။ နောက်က .js မထည့်ပဲလဲ ရေးလို့ရပါတယ်။
     အောက်မှာ ဆာဗာစတင်နေပြီး ဖြစ်ကြောင်းကို server.start method မှာ log ထုတ်ထားတဲ့ အတိုင်း
     ပြပေးနေတာဖြစ်ပါတယ်။
-##### ခု ကျနော်တို့ server ကို browserမှာ သွားဖွင့်ကြည့်ရအောင်
+#### ခု ကျနော်တို့ server ကို browserမှာ သွားဖွင့်ကြည့်ရအောင်
 browser address bar မှာ localhost:3000 လို့ ရိုက်ပြီး enter  ခေါက်ကြည့်လိုက်တဲ့ အခါ
 server.js မှာ createServer လုပ်ပြီး response လုပ်ထားတဲ့ hello world ကို header tag တစ်ခုအနေနဲ့
 မြင်ရမှာ ဖြစ်ပါတယ်။ **(ဘေးပုံ)**
@@ -175,10 +175,10 @@ server.js မှာ createServer လုပ်ပြီး response လုပ်�
 >server ကို ပိတ်ချင်ရင် terminal မှာ shortcut key **`ctrl`**  `+` **`c`** ကို နှိပ်ပေးရပါမယ်
 ##
 ### Server တွင် file တစ်ခုကို ဖတ်ခိုင်းပြီး browser မှာ ပြသခြင်း
-#### index.html ဖိုင် ကို fs module အသုံးပြု၍ serverကို ဖတ်ခိုင်းကာ ရလာတဲ့ responseကို browser မှာ ပြခိုင်းကြည့်ပါမယ်။
+### index.html ဖိုင် ကို fs module အသုံးပြု၍ serverကို ဖတ်ခိုင်းကာ ရလာတဲ့ responseကို browser မှာ ပြခိုင်းကြည့်ပါမယ်။
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/nodeserver2.jpg?raw=true)
-##### server က response ပြန်တဲ့ res.write မှာ fs က ရလာတဲ့ data ကို ထည့်ပေးလိုက်ရုံပါပဲ။
-##### node server.js ကို run လိုက်တဲ့အခါ index.html မှာ ရေးထားတဲ့အတိုင်း မြင်ရမှာ ဖြစ်ပါတယ်။
+#### server က response ပြန်တဲ့ res.write မှာ fs က ရလာတဲ့ data ကို ထည့်ပေးလိုက်ရုံပါပဲ။
+#### node server.js ကို run လိုက်တဲ့အခါ index.html မှာ ရေးထားတဲ့အတိုင်း မြင်ရမှာ ဖြစ်ပါတယ်။
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/nodeserver3.jpg?raw=true)
 ##
 ##
