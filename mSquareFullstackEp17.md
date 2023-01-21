@@ -247,7 +247,7 @@ server.js မှာ createServer လုပ်ပြီး response လုပ်�
 >
 ![enter image description here](https://github.com/Aungtat/MSquareFullstackCourseSummary/blob/main/nodeserver6.jpg?raw=true)
 ##
-### တကယ်လို့ request လုပ်တဲ့ url က root ( " /about.html " )ဖြစ်ခဲ့ရင် about.html ဖိုင်ကို response လုပ်ခိုင်းတာပါ။ 
+### တကယ်လို့ request လုပ်တဲ့ url က  ( " /about.html " )ဖြစ်ခဲ့ရင် about.html ဖိုင်ကို response လုပ်ခိုင်းတာပါ။ 
 > index.html မှာ link ချိတ်ထားတဲ့ Go to About Page ကနေ clickလုပ်လိုက်တာပဲ ဖြစ်ဖြစ်
 > address bar မှာ localhost:3000/about.html လို့ ရိုက်ပေးလိုက်တာပဲဖြစ်ဖြစ် about.html ဖိုင်ထဲက
 > dataတွေ ပြပေးခိုင်းတာပါ။
